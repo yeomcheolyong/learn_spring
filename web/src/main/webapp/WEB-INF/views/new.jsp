@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Write</title>
+<title>NewWrite</title>
 <script type="text/javascript">
 	$(document).ready(function(){
 		var title = $("#title").val();
@@ -49,8 +49,8 @@
 	</div>
 	<div style="width:650px; text-align:center;">
 		<input type="hidden" name="bno" value="${dto.bno}">
-		<button type="button" id=btnUpdate>修正</button>
-		<button type="button" id=btnDelete>削除</button>
+		<button type="button" id=btnInput>登録</button>
+		<button type="reset" >取消</button>
 	</div>
 </form>
 </body>
